@@ -247,6 +247,13 @@ body div {
     border-color: #2845BA;
   }
 
+  @media screen and (min-width:1920px){
+    .emal {
+      margin-left: 150px;
+      /* font-size: 60px; */
+    }
+  }
+
   @media screen and (max-width:320px) {
     .emal {
       padding-top: 16px;
@@ -299,6 +306,13 @@ body div {
     margin-left: 90px;
   }
 
+  @media screen and (min-width:1920px){
+    .topspan {
+      margin-left:250px;
+      font-size: 10px;
+    }
+  }
+
   @media screen and (max-width:768px) {
     .topspan {
       margin-left: 60px;
@@ -332,6 +346,13 @@ body div {
     font-weight: 700;
   }
 
+  @media screen and (min-width:1920px){
+    .tophead {
+      margin-left: 150px;
+      font-size: 60px;
+    }
+  }
+
   @media screen and (max-width:768px) {
     .tophead {
       font-size: 30px;
@@ -357,6 +378,13 @@ body div {
     color: #30425f;
     font-size: 22px;
     font-weight: 500;
+  }
+
+  @media screen and (min-width:1920px){
+    .tophead1 {
+      margin-left: 150px;
+      font-size: 25px;
+    }
   }
 
   @media screen and (max-width:768px) {
@@ -395,7 +423,8 @@ body div {
 
   .hero {
     background-image: url(images/hero1.jpg);
-    height: 700px;
+    height: 820px;
+    background-position: center;
   }
 
   @media (max-width: 767px) {
@@ -407,6 +436,12 @@ body div {
 .dotimg {
   margin-top: 57px;
   margin-left: 50px;
+}
+
+@media (min-width: 1920px) {
+  .dotimg {
+    margin-top: 200px;
+  }
 }
 
 @media (max-width: 1199px) {
@@ -427,6 +462,21 @@ body div {
   font-weight: 700;
   
 }
+
+
+@media (max-width: 1920px) {
+  .oll {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 2560px) {
+  .oll {
+    margin-top: 100px;
+  }
+}
+
+
 
 @media (max-width: 320px) {
   .oll {
@@ -1135,9 +1185,15 @@ transition: background-position 500ms, color 500ms ease, border-color 500ms ease
   padding-left: 30px;
 }
 
-.fa-angle-up {
+.uppp {
   float: right;
   padding-right: 30px;
+}
+
+.fttps {
+  float: right;
+  padding-right: 1px;
+  padding-left: 1px;
 }
 
 .droptext {
@@ -3115,6 +3171,65 @@ blockquote {
   margin-top: 200px;
   margin-left: 40px;
 }
+
+
+
+
+
+
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #2845BA; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 100px; /* Rounded corners */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
