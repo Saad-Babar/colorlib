@@ -283,6 +283,11 @@ body div {
     font-family: 'Open Sans', sans-serif;
   }
 
+  .emal:focus {
+    box-shadow: none;
+    border-color: #2845BA;
+  }
+
   
 
   @media screen and (max-width:320px) {
@@ -361,14 +366,15 @@ body div {
     border-radius: 5px;
     color: #4e67cc;
     font-size: 14px;
-    font-weight: 800;
+    font-weight: 600;
     margin-left: 90px;
+    font-family: 'Open Sans', sans-serif;
   }
 
   @media screen and (min-width:1920px){
     .topspan {
       margin-left:250px;
-      font-size: 10px;
+      font-size: 14px;
     }
   }
 
@@ -444,6 +450,7 @@ body div {
     color: #30425f;
     font-size: 22px;
     font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
   }
 
   @media screen and (min-width:1920px){
@@ -1075,6 +1082,7 @@ transition: background-position 500ms, color 500ms ease, border-color 500ms ease
   font-weight: 400;
   color: #5c6168;
   padding-bottom: 5px;
+  margin-bottom: 50px;
 }
 
 .fet11 {
@@ -1139,7 +1147,7 @@ transition: background-position 500ms, color 500ms ease, border-color 500ms ease
 
 .fashion3 {
   margin: 0 auto;
-  border-bottom: 1px solid #DBDEE9;
+  border-bottom: 1px solid #1B2C47;
 
 }
 
