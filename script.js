@@ -23,47 +23,77 @@
   
     function myFunctionnn() {
       var x = document.getElementById("myDIV1");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
+      var y = document.getElementById("myDIV2");
+      var z = document.getElementById("myDIV3");
+      x.style.display = "block";
+      y.style.display = "none"
+      z.style.display = "none";
 
-      var x = document.getElementById("myDIV2");
-      x.style.display = "none"
 
-      var x = document.getElementById("myDIV3");
-      x.style.display = "none"
+
+      // if (x.style.display === "none") {
+      //   x.style.display = "block";
+      // } else {
+      //   x.style.display = "none";
+      // }
+
+      // var x = document.getElementById("myDIV2");
+      // x.style.display = "none"
+
+      // var x = document.getElementById("myDIV3");
+      // x.style.display = "none"
     }
   
     function myFunctionnnn() {
-      var x = document.getElementById("myDIV2");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
 
-      var x = document.getElementById("myDIV3");
-      x.style.display = "none"
 
       var x = document.getElementById("myDIV1");
-      x.style.display = "none"
+      var y = document.getElementById("myDIV2");
+      var z = document.getElementById("myDIV3");
+      x.style.display = "none";
+      y.style.display = "block"
+      z.style.display = "none";
+
+
+
+      // var x = document.getElementById("myDIV2");
+      // if (x.style.display === "none") {
+      //   x.style.display = "block";
+      // } else {
+      //   x.style.display = "none";
+      // }
+
+      // var x = document.getElementById("myDIV3");
+      // x.style.display = "none"
+
+      // var x = document.getElementById("myDIV1");
+      // x.style.display = "none"
     }
   
     function myFunctionnnnn() {
-      var x = document.getElementById("myDIV3");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
-
-      var x = document.getElementById("myDIV2");
-      x.style.display = "none"
 
       var x = document.getElementById("myDIV1");
-      x.style.display = "none"
+      var y = document.getElementById("myDIV2");
+      var z = document.getElementById("myDIV3");
+      x.style.display = "none";
+      y.style.display = "none"
+      z.style.display = "block";
+
+
+
+
+      // var x = document.getElementById("myDIV3");
+      // if (x.style.display === "none") {
+      //   x.style.display = "block";
+      // } else {
+      //   x.style.display = "none";
+      // }
+
+      // var x = document.getElementById("myDIV2");
+      // x.style.display = "none"
+
+      // var x = document.getElementById("myDIV1");
+      // x.style.display = "none"
     }
   
     function myFunctiono(x) {
@@ -101,3 +131,16 @@
       document.body.scrollTop = 0; // For Safari
       document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     } 
+
+    // JavaScript to handle button click events
+    $(document).ready(function() {
+      $("#button3").click(function() {
+          $("#button3").addClass("active-button");
+          $("#button2").removeClass("active-button");
+      });
+
+      $("#button2").click(function() {
+          $("#button2").addClass("active-button");
+          $("#button3").removeClass("active-button");
+      });
+  });
